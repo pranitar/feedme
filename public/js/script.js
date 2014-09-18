@@ -21,6 +21,7 @@
 //function getPics() {
 // $(document).ready(function(){
 $('#submit').click(function() {
+	console.log("HELLO");
 	$.ajax({
         type: "GET",
         dataType: "jsonp",
