@@ -18,7 +18,7 @@
 //         	});
 //         } );  // click
 //   } ); // onReady
-(function getPics() {
+function getPics() {
 // $(document).ready(function(){
 	$.ajax({
         type: "GET",
@@ -32,7 +32,7 @@
         }
     });
 // });
-});
+};
 
 // $(function() {
 // $('form[name="eg1"] input').click(function() {
