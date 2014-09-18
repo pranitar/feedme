@@ -20,7 +20,7 @@
 //   } ); // onReady
 
 $(function() {
-$('form[name="eg1"] input').click(function() {
+// $('form[name="eg1"] input').click(function() {
     $.ajax({
         type: "GET",
         dataType: "jsonp",
@@ -32,7 +32,7 @@ $('form[name="eg1"] input').click(function() {
             }
         }
     });
-} );
+// } );
 });
 
 
