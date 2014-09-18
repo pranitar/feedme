@@ -22,6 +22,10 @@
 $(document).ready(function(){
 $("#submit").on("click", function() {
 	var tag = $("#tag").val();
+	if(tag===""){
+		return;
+	}
+	$("#pics").html("");
 	//alert(tag);
 	$.ajax({
         type: "GET",
