@@ -19,9 +19,9 @@
 //         } );  // click
 //   } ); // onReady
 //function getPics() {
-// $(document).ready(function(){
+$(document).ready(function(){
 $("#submit").on("click", function() {
-	console.log("HELLO");
+	alert("HELLO");
 	// $.ajax({
  //        type: "GET",
  //        dataType: "jsonp",
@@ -33,7 +33,7 @@ $("#submit").on("click", function() {
  //            }
  //        }
  //    });
-// });
+});
 });
 
 // $(function() {
