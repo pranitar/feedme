@@ -19,6 +19,7 @@
 //         } );  // click
 //   } ); // onReady
 $(document).ready(function(){
+	$("#submit").click(function() {
 	$.ajax({
         type: "GET",
         dataType: "jsonp",
@@ -30,6 +31,7 @@ $(document).ready(function(){
             }
         }
     });
+});
 });
 
 // $(function() {
