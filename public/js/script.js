@@ -21,7 +21,8 @@
 //function getPics() {
 $(document).ready(function(){
 $("#submit").on("click", function() {
-	console.log("HELLO");
+	var tag = $("#tag").val();
+	alert(tag);
 	$.ajax({
         type: "GET",
         dataType: "jsonp",
