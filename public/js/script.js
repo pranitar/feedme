@@ -20,7 +20,7 @@
 //   } ); // onReady
 //function getPics() {
 // $(document).ready(function(){
-$("button").on("click", function() {
+$("#submit").on("click", function() {
 	console.log("HELLO");
 	$.ajax({
         type: "GET",
