@@ -18,8 +18,8 @@
 //         	});
 //         } );  // click
 //   } ); // onReady
-$(document).ready(function(){
-	$("#submit").click(function() {
+$("#submit").click(function() {
+// $(document).ready(function(){
 	$.ajax({
         type: "GET",
         dataType: "jsonp",
@@ -31,7 +31,7 @@ $(document).ready(function(){
             }
         }
     });
-});
+// });
 });
 
 // $(function() {
