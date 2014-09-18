@@ -1,0 +1,10 @@
+#left{
+	background-color: Turquoise;
+	float: left;
+	height:100%;
+}
+
+#right{
+	float: right;
+	height:100%;
+}
