@@ -18,8 +18,9 @@
 //         	});
 //         } );  // click
 //   } ); // onReady
-function getPics() {
+//function getPics() {
 // $(document).ready(function(){
+$('#submit').click(function() {
 	$.ajax({
         type: "GET",
         dataType: "jsonp",
@@ -32,7 +33,7 @@ function getPics() {
         }
     });
 // });
-};
+});
 
 // $(function() {
 // $('form[name="eg1"] input').click(function() {
