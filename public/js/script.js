@@ -1,5 +1,5 @@
 $(function() {    // do once original document loaded and ready
-        $('form[name="jq"] input').click(function() {
+        $('form[name="eg1"] input').click(function() {
         	$.ajax({
             crossDomain: true,
             type:"GET",
