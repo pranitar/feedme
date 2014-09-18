@@ -18,7 +18,7 @@
 //         	});
 //         } );  // click
 //   } ); // onReady
-function getPics() {
+(function getPics() {
 // $(document).ready(function(){
 	$.ajax({
         type: "GET",
