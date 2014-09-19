@@ -20,28 +20,28 @@
 //   } ); // onReady
 //function getPics() {
 $(document).ready(function(){
-$("#submit").on("click", function() {
-	var tag = $("#tag").val();
-	if(tag===""){
-		return;
-	}
-	$("#pics").html("");
-	//alert(tag);
-	$.ajax({
-        type: "GET",
-        dataType: "jsonp",
-        cache: false,
-        url: "https://api.instagram.com/v1/tags/"+tag+"/media/recent?client_id=17b605e326494ebf958596b21441d8df",
-        success: function(data) {
-            for (var i = 0; i < 15; i++) {
-                $("#pics").append("<a target='_blank' href='" + data.data[i].link + "'><img src='" + data.data[i].images.low_resolution.url + "'></img></a>");
-            }
-        }
-    });
-});
+	$("#submit").on("click", function() {
+		var tag = $("#tag").val();
+		if(tag===""){
+			return;
+		}
+		$("#pics").html("");
+		//alert(tag);
+		$.ajax({
+	        type: "GET",
+	        dataType: "jsonp",
+	        cache: false,
+	        url: "https://api.instagram.com/v1/tags/"+tag+"/media/recent?client_id=17b605e326494ebf958596b21441d8df",
+	        success: function(data) {
+	            for (var i = 0; i < 15; i++) {
+	                $("#pics").append("<a target='_blank' href='" + data.data[i].link + "'><img src='" + data.data[i].images.low_resolution.url + "'></img></a>");
+	            }
+	        }
+	    });
+	});
 
         $("#popular").click(function() {
-        	// console.log("this is INDEED working");
+        	console.log("this is INDEED working");
                 $.getJSON("food.json", function(responseObject) {
                         console.log("in get json");
                         var displayText = 
