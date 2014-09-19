@@ -1,30 +1,15 @@
-// $(function() {    // do once original document loaded and ready
-//         $('form[name="eg1"] input').click(function() {
-//         	$.ajax({
-//         	dataType: "jsonp", 
-//             crossDomain: true,
-//             type:"GET",
-//             contentType: "application/json; charset=utf-8",
-//             async:false,
-//             cache: false,
-//             url: "https://api.instagram.com/v1/tags/food/media/recent?client_id=17b605e326494ebf958596b21441d8df",
-//             // data: {projectID:1},               
-//             // jsonpCallback: 'fnsuccesscallback'
-//             success: function(data){
-//             	for (var i = 0; i < 10; i++) {
-//                 $("#pics").append("<a target='_blank' href='" + data.data[i].link + "'><img src='" + data.data[i].images.low_resolution.url + "'></img></a>");
-//             }
-//             }
-//         	});
-//         } );  // click
-//   } ); // onReady
-//function getPics() {
 $(document).ready(function(){
+	var tagArray = [];
 	$("#submit").on("click", function() {
 		var tag = $("#tag").val();
 		if(tag===""){
 			return;
 		}
+		else if(isDuplicate(tag))
+		{
+			return;
+		}
+		tagArray.add(tag);
 		$("#menu ul").append("<li>"+tag+"<img src='img/close.png' class='close'/><\/li>");
 		$("#pics").html("");
 		//alert(tag);
@@ -66,6 +51,24 @@ $(document).ready(function(){
          	// console.log($(this).text());
             $(this).parent().fadeOut(800);
         }); 
+
+        function isDuplicate(input){
+        	var array = [];
+        	$("#menu ul li").each(function(){
+        		array.push($(this).text());
+        	});
+
+            if(array.length===0)
+            {
+                return false;
+            }
+
+        	array.each(function(){
+        		if(this===input)
+					return true;
+        	})
+			return false;
+		};
 });
 
 
@@ -85,7 +88,3 @@ $(document).ready(function(){
 //     });
 // 	});
 // });
-
-
-
-
