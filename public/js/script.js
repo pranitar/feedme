@@ -57,9 +57,9 @@ $(document).ready(function(){
                 } );  // getJSON
         });  // click
 
-         $("body").on("click", "li", function() {
-         	console.log("clicking LI");
-            $("#tag").html(("li").text());
+         $("#left").on("click", "li", function() {
+         	console.log($(this).text());
+            // $("#tag").html($("li").text());
         }); 
 });
 
