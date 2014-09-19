@@ -53,8 +53,7 @@ $(document).ready(function(){
                                 displayText += "<li>"+popfood.food + " <\/li>";
                                 }
                         displayText += "<\/ul>";
-                $("#poptags").slideToggle("slow", function(){
-                	$(this).html(displayText);
+                $("#poptags").html(displayText).hide().slideDown(1000);
                 	});
                 } );  // getJSON
         });  // click
