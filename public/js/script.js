@@ -25,6 +25,7 @@ $(document).ready(function(){
 		if(tag===""){
 			return;
 		}
+		$("menu").append(tag);
 		$("#pics").html("");
 		//alert(tag);
 		$.ajax({
@@ -55,6 +56,8 @@ $(document).ready(function(){
                 $("#poptags").html(displayText);
                 } );  // getJSON
         } );  // click
+
+
 } );
 
 
