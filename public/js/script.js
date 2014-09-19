@@ -64,7 +64,7 @@ $(document).ready(function(){
 
         $("#left").on("click", ".close", function() {
          	// console.log($(this).text());
-            $(this).parent().fadeOut(2000);
+            $(this).parent().fadeOut(800);
         }); 
 });
 
