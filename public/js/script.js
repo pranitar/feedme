@@ -58,7 +58,8 @@ $(document).ready(function(){
         });  // click
 
          $("li").click(function() {
-            $(":input").val(this.text());
+         	console.log("clicking LI");
+            $("#tag").val(this.text());
         }); 
 });
 
