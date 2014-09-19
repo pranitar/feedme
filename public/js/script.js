@@ -53,7 +53,9 @@ $(document).ready(function(){
                                 displayText += "<li>"+popfood.food + " <\/li>";
                                 }
                         displayText += "<\/ul>";
-                $("#poptags").html(displayText);
+                $("#poptags").slideToggle("fast", function(){
+                	this.html(displayText);
+                	});
                 } );  // getJSON
         });  // click
 
