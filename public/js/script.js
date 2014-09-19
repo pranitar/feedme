@@ -39,9 +39,10 @@ $("#submit").on("click", function() {
         }
     });
 });
-});
+
 
         $('#popular').on("click", function() {
+        	alert("this is INDEED working");
                 $.getJSON("food.json", function(responseObject, diditwork) {
                         console.log(diditwork);
                         var displayText = 
@@ -55,6 +56,8 @@ $("#submit").on("click", function() {
                 $("#popular").html(displayText);
                 } );  // getJSON
         } );  // click
+
+ });
 
 // $(function() {
 // $('form[name="eg1"] input').click(function() {
