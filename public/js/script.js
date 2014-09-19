@@ -59,7 +59,7 @@ $(document).ready(function(){
 
          $("#left").on("click", "li", function() {
          	// console.log($(this).text());
-            $("input").html($(this).text());
+            $("input").val($(this).text());
         }); 
 });
 
