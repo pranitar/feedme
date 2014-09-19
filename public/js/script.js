@@ -42,7 +42,7 @@ $(document).ready(function(){
 
         $("#popular").click(function() {
         	console.log("this is INDEED working");
-        	$.getJSON("dance.json", function(responseObject, diditwork) {
+        	$.getJSON("food.json", function(responseObject, diditwork) {
                         console.log(diditwork);
                         var displayText = 
                                 "There are " 
