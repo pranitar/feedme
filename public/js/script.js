@@ -58,8 +58,8 @@ $(document).ready(function(){
         });  // click
 
          $("#left").on("click", "li", function() {
-         	console.log($(this).text());
-            // $("#tag").html($("li").text());
+         	// console.log($(this).text());
+            $("#tag").html($(this).text());
         }); 
 });
 
