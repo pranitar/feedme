@@ -50,7 +50,7 @@ $(document).ready(function(){
                                 "<ul>";
                         for (var i = 0; i<responseObject.popularFoods.length; i++) {
                                 var popfood = responseObject.popularFoods[i];
-                                displayText += "<li>"+popfood.food + "<\/li>";
+                                displayText += "<li>"+popfood.food + "<img src='img/close.png' class='close'/> <\/li>";
                                 }
                         displayText += "<\/ul>";
                 $("#poptags").html(displayText);
