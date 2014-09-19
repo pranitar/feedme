@@ -1,0 +1,19 @@
+{
+  "popularFoods": [
+    {
+      "food": "icecream",
+    },
+    {
+      "food": "macncheese",
+    },
+    {
+      "food": "froyo",
+    },
+    {
+      "food": "pizza",
+    }
+    {
+      "food": "couscous"
+    }
+  ]
+}
