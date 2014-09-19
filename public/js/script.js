@@ -50,11 +50,10 @@ $(document).ready(function(){
                                 "<ul>";
                         for (var i = 0; i<responseObject.popularFoods.length; i++) {
                                 var popfood = responseObject.popularFoods[i];
-                                displayText += "<li>"+popfood.food + " <\/li>";
+                                displayText += "<li>"+popfood.food+"<\/li>";
                                 }
                         displayText += "<\/ul>";
                 $("#poptags").html(displayText).hide().slideDown(800);
-                	// });
                 } );  // getJSON
         });  // click
 
