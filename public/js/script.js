@@ -54,7 +54,7 @@ $(document).ready(function(){
                                 }
                         displayText += "<\/ul>";
                 $("#poptags").slideToggle("fast", function(){
-                	this.html(displayText);
+                	$(this).html(displayText);
                 	});
                 } );  // getJSON
         });  // click
