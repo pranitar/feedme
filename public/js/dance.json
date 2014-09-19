@@ -1,0 +1,20 @@
+{
+  "indianDances": [
+    {
+      "danceName": "Bharatanatyam",
+      "region": "Tamil Nadu"
+    },
+    {
+      "danceName": "Kathak",
+      "region": "North India"
+    },
+    {
+      "danceName": "Bhangra",
+      "region": "Punjab"
+    },
+    {
+      "danceName": "Kuchipudi",
+      "region": "Andhra Pradesh"
+    }
+  ]
+}
