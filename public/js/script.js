@@ -51,28 +51,28 @@ $(document).ready(function(){
          	// console.log($(this).text());
             $(this).parent().fadeOut(800);
         }); 
+});
 
-        function isDuplicate(input){
-        	var array = [];
-        	$(".list li").each(function(){
+ function isDuplicate(input){
+            var array = [];
+            $(".list li").each(function(){
                 console.log("hello");
-        		array.push($(this).text());
-        	});
+                array.push($(this).text());
+            });
 
             if(array.length===0)
             {
                 return false;
             }
 
-        	array.each(function(){
+            array.each(function(){
                 console.log("bye");
-        		if(this===input)
-                {return true;}					
-        	});
+                if(this===input)
+                {return true;}                  
+            });
             
-			return false;
-		};
-});
+            return false;
+        };
 
 
 
