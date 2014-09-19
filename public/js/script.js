@@ -50,15 +50,17 @@ $(document).ready(function(){
                                 "<ul>";
                         for (var i = 0; i<responseObject.popularFoods.length; i++) {
                                 var popfood = responseObject.popularFoods[i];
-                                displayText += "<li>"+popfood.food + "<\/li>";
+                                displayText += "<li class=f>"+popfood.food + "<\/li>";
                                 }
                         displayText += "<\/ul>";
                 $("#poptags").html(displayText);
                 } );  // getJSON
-        } );  // click
+        });  // click
 
-
-} );
+         $(".f").click(function() {
+            $("input").html(this.html());
+        }); 
+});
 
 
 
