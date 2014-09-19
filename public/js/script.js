@@ -39,9 +39,7 @@ $("#submit").on("click", function() {
         }
     });
 });
-});
 
-$(function() {   
         $("#popular").click(function() {
         	// console.log("this is INDEED working");
                 $.getJSON("food.json", function(responseObject) {
@@ -56,7 +54,7 @@ $(function() {
                 $("#popular").html(displayText);
                 } );  // getJSON
         } );  // click
-   } );
+} );
 
 
 
