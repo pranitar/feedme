@@ -42,7 +42,7 @@ $("#submit").on("click", function() {
 
 
         $('#popular').on("click", function() {
-        	alert("this is INDEED working");
+        	console.log("this is INDEED working");
                 $.getJSON("food.json", function(responseObject, diditwork) {
                         console.log(diditwork);
                         var displayText = 
