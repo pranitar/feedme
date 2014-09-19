@@ -59,7 +59,7 @@ $(document).ready(function(){
 
          $("body").on("click", "li", function() {
          	console.log("clicking LI");
-            $("#tag").html(this.val());
+            $("#tag").html(("li").val());
         }); 
 });
 
