@@ -44,8 +44,8 @@ $("#submit").on("click", function() {
 $(function() {   
         $("#popular").click(function() {
         	// console.log("this is INDEED working");
-                $.getJSON("food.json", function(responseObject, diditwork) {
-                        console.log(diditwork);
+                $.getJSON("food.json", function(responseObject) {
+                        // console.log(diditwork);
                         var displayText = 
                                 "<ul>";
                         for (var i = 0; i<responseObject.popularFoods.length; i++) {
