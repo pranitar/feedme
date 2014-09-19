@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var tagArray = [];
+	// var tagArray = [];
 	$("#submit").on("click", function() {
 		var tag = $("#tag").val();
 		if(tag===""){
@@ -9,7 +9,7 @@ $(document).ready(function(){
 		{
 			return;
 		}
-		tagArray.add(tag);
+		// tagArray.add(tag);
 		$("#menu ul").append("<li>"+tag+"<img src='img/close.png' class='close'/><\/li>");
 		$("#pics").html("");
 		//alert(tag);
@@ -54,7 +54,8 @@ $(document).ready(function(){
 
         function isDuplicate(input){
         	var array = [];
-        	$("#menu ul li").each(function(){
+        	$(".list li").each(function(){
+                console.log("hello");
         		array.push($(this).text());
         	});
 
@@ -64,9 +65,11 @@ $(document).ready(function(){
             }
 
         	array.each(function(){
+                console.log("bye");
         		if(this===input)
-					return true;
-        	})
+                {return true;}					
+        	});
+            
 			return false;
 		};
 });
