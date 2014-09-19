@@ -58,7 +58,7 @@ $(document).ready(function(){
         });  // click
 
          $("li").click(function() {
-            $(":input").html(this.text());
+            $(":input").val(this.text());
         }); 
 });
 
