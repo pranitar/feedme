@@ -57,7 +57,7 @@ $(document).ready(function(){
                 } );  // getJSON
         });  // click
 
-         $(".list li").mouseenter(function() {
+         $("body").on("click", "li", function() {
          	console.log("clicking LI");
             $("#tag").val(this.text());
         }); 
