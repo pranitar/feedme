@@ -40,38 +40,20 @@ $(document).ready(function(){
 	    });
 	});
 
-	$('#popular').click(function() {
-                $.getJSON("dance.json", function(responseObject, diditwork) {
-                        console.log(diditwork);
+        $("#popular").click(function() {
+        	console.log("this is INDEED working");
+                $.getJSON("food.json", function(responseObject) {
+                        console.log("in get json");
                         var displayText = 
-                                "There are " 
-                                + responseObject.indianDances.length 
-                                + " Indian dances:<ol>";
-                        for (var i = 0; i<responseObject.indianDances.length; i++) {
-                                var dance = responseObject.indianDances[i];
-                                displayText += "<li>"
-                                                        +dance.danceName + " " 
-                                                        + dance.region + "<\/li>";
+                                "<ul>";
+                        for (var i = 0; i<responseObject.popularFoods.length; i++) {
+                                var popfood = responseObject.popularFoods[i];
+                                displayText += "<li>"+popfood.food + "<\/li>";
                                 }
                         displayText += "<\/ul>";
-                $("#jqueryresponse").html(displayText);
+                $("#left").html(displayText);
                 } );  // getJSON
         } );  // click
-
-        // $("#popular").click(function() {
-        // 	console.log("this is INDEED working");
-        //         $.getJSON("food.json", function(responseObject) {
-        //                 console.log("in get json");
-        //                 var displayText = 
-        //                         "<ul>";
-        //                 for (var i = 0; i<responseObject.popularFoods.length; i++) {
-        //                         var popfood = responseObject.popularFoods[i];
-        //                         displayText += "<li>"+popfood.food + "<\/li>";
-        //                         }
-        //                 displayText += "<\/ul>";
-        //         $("#popular").html(displayText);
-        //         } );  // getJSON
-        // } );  // click
 } );
 
 
