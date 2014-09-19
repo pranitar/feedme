@@ -60,6 +60,11 @@ $(document).ready(function(){
          $("#left").on("click", "li", function() {
          	// console.log($(this).text());
             $("input").val($(this).text());
+        });
+
+        $("#left").on("click", ".close", function() {
+         	// console.log($(this).text());
+            $(this).parent().fadeOut(2000);
         }); 
 });
 
