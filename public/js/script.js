@@ -65,11 +65,12 @@ $(document).ready(function(){
                 return false;
             }
 
-            array.each(function(){
+            for(var x=0; x<array.length;x++)
+            {
                 console.log("bye");
-                if(this===input)
+                if(array[x]===input)
                 {return true;}                  
-            });
+            }
             
             return false;
         };
