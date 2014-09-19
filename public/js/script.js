@@ -5,12 +5,10 @@ $(document).ready(function(){
 		if(tag===""){
 			return;
 		}
-		else if(isDuplicate(tag))
+		else if(!isDuplicate(tag))
 		{
-			break
-		}
-		// tagArray.add(tag);
 		$("#menu ul").append("<li>"+tag+"<img src='img/close.png' class='close'/><\/li>");
+		}
 		$("#pics").html("");
 		//alert(tag);
 		$.ajax({
