@@ -25,7 +25,7 @@ $(document).ready(function(){
 		if(tag===""){
 			return;
 		}
-		$("#menu").append(tag);
+		$("#list").append("<li>"+tag+"</li>");
 		$("#pics").html("");
 		//alert(tag);
 		$.ajax({
