@@ -53,7 +53,7 @@ $(document).ready(function(){
                                 displayText += "<li>"+popfood.food + " <\/li>";
                                 }
                         displayText += "<\/ul>";
-                $("#poptags").slideToggle("fast", function(){
+                $("#poptags").slideToggle("slow", function(){
                 	$(this).html(displayText);
                 	});
                 } );  // getJSON
