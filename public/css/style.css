@@ -48,9 +48,6 @@ white-space: nowrap;
 /*-webkit-border-radius: 5px;
 -moz-border-radius: 5px;
 border-radius: 5px;*/
-float:center;
-	margin-left:25%;
-	margin-right:25%;
 /*-webkit-transition: all 0.2s ease-in-out;
 -ms-transition: all 0.2s ease-in-out;
 -moz-transition: all 0.2s ease-in-out;
@@ -69,5 +66,4 @@ img .insta{
 
 #menu{
 	color: white;
-	text-align: center;
 }
