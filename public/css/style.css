@@ -14,7 +14,7 @@
 	margin:auto;
 }
 
-button{
+#submit, #tag, #menu{
 	float:center;
 	margin-left:25%;
 	margin-right:25%;
