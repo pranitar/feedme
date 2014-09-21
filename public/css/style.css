@@ -20,11 +20,6 @@
 	border-radius: 5px;
 }
 
-#submit{
-	margin-left:10%;
-	color:black;
-}
-
 h1{
 	font-size: 2.0em;
 	color:white;
@@ -45,11 +40,12 @@ text-decoration: none;
 font-family: sans-serif;
 /*-webkit-font-smoothing: antialiased;*/
 font-size: 1.1em;
-color: #FFF;
+color: dimgray;
 background: lightgray;
 padding: 10px 20px;
 display: inline-block;
 white-space: nowrap;
+margin-left:10%;
 /*-webkit-border-radius: 5px;
 -moz-border-radius: 5px;
 border-radius: 5px;*/
