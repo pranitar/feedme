@@ -36,13 +36,13 @@ font-family: sans-serif;
 -webkit-font-smoothing: antialiased;
 font-size: 150%;
 color: #FFF;
-background: #0CADA7;
+background: lightgray;
 padding: 20px 60px;
 display: inline-block;
 white-space: nowrap;
--webkit-border-radius: 5px;
+/*-webkit-border-radius: 5px;
 -moz-border-radius: 5px;
-border-radius: 5px;
+border-radius: 5px;*/
 margin: 10px 0;
 -webkit-transition: all 0.2s ease-in-out;
 -ms-transition: all 0.2s ease-in-out;
