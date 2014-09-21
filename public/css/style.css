@@ -14,6 +14,10 @@
 	margin:auto;
 }
 
+#tag{
+	margin-left:15%;
+}
+
 #submit{
 	float:center;
 	margin-left:25%;
