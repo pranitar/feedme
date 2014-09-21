@@ -34,7 +34,7 @@ ul {
 	text-align: left;
 }
 
-#submit, #popular{
+#submit{
 text-align:center;
 text-decoration: none;
 font-family: sans-serif;
@@ -58,7 +58,17 @@ transition: all 0.2s ease-in-out;*/
 #submit:hover {
 background: #0A948F;
 }
-
+#popular{
+text-align:center;
+text-decoration: none;
+font-family: sans-serif;
+font-size: 1.1em;
+color: white;
+padding: 5px 10px;
+display: inline-block;
+white-space: nowrap;
+margin-left:10%;
+}
 img .insta{
 	height: 200px;
 	width: 200px;
