@@ -3,8 +3,9 @@
 	position: fixed;
 	float: left;
 	height:100%;
-	width: 20%;
-	margin:auto;
+	width: 30%;
+	margin-top:0;
+	margin-left:0;
 }
 
 #right{
