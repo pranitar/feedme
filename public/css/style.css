@@ -32,8 +32,9 @@ h1{
 	font-size: 2.0em;
 	color:white;
 	font-family: Cooper Black, Arial Black, Sans-Serif;
-	/*text-align: center;*/
+	text-align: left;
 	margin-top: 25px;
+	margin-left:10%;
 }
 
 ul { 
