@@ -18,7 +18,7 @@ $(document).ready(function(){
 	        url: "https://api.instagram.com/v1/tags/"+tag+"/media/recent?client_id=17b605e326494ebf958596b21441d8df",
 	        success: function(data) {
 	            for (var i = 0; i < 15; i++) {
-	                $("#pics").append("<a target='_blank' href='" + data.data[i].link + "'><img src='" + data.data[i].images.low_resolution.url + "'></img></a>");
+	                $("#pics").append("<a target='_blank' href='" + data.data[i].link + "'><img src='" + data.data[i].images.low_resolution.url + "'class='insta'></img></a>");
 	            }
 	        }
 	    });
