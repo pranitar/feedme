@@ -27,7 +27,10 @@ h1{
 	text-align: center;
 }
 
-ul { list-style-type: none; }
+ul { 
+	list-style-type: none; 
+	text-align: center;
+}
 
 #submit{
 text-align:center;
