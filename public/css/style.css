@@ -15,7 +15,7 @@
 	margin:auto;
 }
 
-#tag, #popular{
+#tag{
 	margin-left:10%;
 	border-radius: 5px;
 }
@@ -34,7 +34,7 @@ ul {
 	text-align: left;
 }
 
-#submit{
+#submit, #popular{
 text-align:center;
 text-decoration: none;
 font-family: sans-serif;
