@@ -38,7 +38,7 @@ ul {
 text-align:center;
 text-decoration: none;
 font-family: sans-serif;
--webkit-font-smoothing: antialiased;
+/*-webkit-font-smoothing: antialiased;*/
 font-size: 1.1em;
 color: #FFF;
 background: lightgray;
@@ -51,11 +51,11 @@ border-radius: 5px;*/
 float:center;
 	margin-left:25%;
 	margin-right:25%;
--webkit-transition: all 0.2s ease-in-out;
+/*-webkit-transition: all 0.2s ease-in-out;
 -ms-transition: all 0.2s ease-in-out;
 -moz-transition: all 0.2s ease-in-out;
 -o-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;*/
 }
 #submit:hover {
 background: #0A948F;
