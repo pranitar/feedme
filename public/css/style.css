@@ -1,5 +1,5 @@
 #left{
-	background-color: SteelBlue;
+	background-color: #35648B;
 	position: fixed;
 	float: left;
 	height:100%;
@@ -14,10 +14,10 @@
 	margin:auto;
 }
 
-input{
+#tag{
 	margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
 
 h1{
