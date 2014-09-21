@@ -29,6 +29,23 @@ h1{
 
 ul { list-style-type: none; }
 
+#submit {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 33px;
+  background: #b5b5b5;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#submit:hover {
+  background: #828282;
+  text-decoration: none;
+}
+
 img .insta{
 	height: 200px;
 	width: 200px;
