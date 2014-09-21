@@ -19,7 +19,8 @@ input{
 }
 
 h1{
-
+	color:white;
+	font-family: Cooper Black, Arial Black, Sans-Serif;
 }
 
 ul { list-style-type: none; }
@@ -27,5 +28,5 @@ ul { list-style-type: none; }
 img .insta{
 	height: 200px;
 	width: 200px;
-	padding: 10px;
+	padding: 20px;
 }
