@@ -21,8 +21,10 @@ input{
 }
 
 h1{
+	font-size: 1.0em;
 	color:white;
 	font-family: Cooper Black, Arial Black, Sans-Serif;
+	text-align: center;
 }
 
 ul { list-style-type: none; }
