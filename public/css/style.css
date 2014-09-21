@@ -14,8 +14,9 @@
 	margin:auto;
 }
 
-#tag{
-	margin: 0 auto;
+button{
+	float:center;
+	margin:auto;
   /*margin-left: auto;
   margin-right: auto;*/
 }
