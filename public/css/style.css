@@ -80,7 +80,9 @@ img .close{
 }
 #menu{
 	color: white;
+	padding: 5px 10px;
 	margin-left: 10%;
+	font-family: sans-serif;
 }
 #poptags{
 margin:0;
