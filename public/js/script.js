@@ -1,8 +1,8 @@
 $(document).ready(function(){
-	// var tagArray = [];
-    $("#tag").keyup(function(event){
+    $("#tag").keypress(function(event){
     if(event.keyCode == 13){
         $("#submit").click();
+    return false;
     }
 });
 	$("#submit").on("click", function() {
@@ -15,7 +15,6 @@ $(document).ready(function(){
 		$("#menu ul").append("<li>"+tag+"<img src='img/close.png' class='close'/><\/li>");
 		}
 		$("#pics").html("");
-		//alert(tag);
 		$.ajax({
 	        type: "GET",
 	        dataType: "jsonp",
