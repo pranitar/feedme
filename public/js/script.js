@@ -1,5 +1,10 @@
 $(document).ready(function(){
 	// var tagArray = [];
+    $("#tag").keyup(function(event){
+    if(event.keyCode == 13){
+        $("#submit").click();
+    }
+});
 	$("#submit").on("click", function() {
 		var tag = $("#tag").val();
 		if(tag===""){
