@@ -7,7 +7,7 @@ $(document).ready(function(){
 		}
 		else if(!isDuplicate(tag))
 		{
-		$("#menu ul").append("<li>"+tag+"&nbsp; &nbsp; <img src='img/close.png' class='close'/><\/li>");
+		$("#menu ul").append("<li>"+tag+"&nbsp;<img src='img/close.png' class='close'/><\/li>");
 		}
 		$("#pics").html("");
 		//alert(tag);
