@@ -1,24 +1,18 @@
-#wrapper{
-	/*margin-left:-10;*/
-	width:100%;
-	height:100%;
-}
 #left{
 	background-color: #35648B;
 	position: fixed;
 	float: left;
 	height:100%;
 	width: 20%;
-	margin-top:-10;
-	margin-left:-10;
+	/*margin-top:-10;
+	margin-left:-10;*/
 }
 
 #right{
-	background-color:red;
 	float: right;
 	height:100%;
 	width:80%;
-	margin-right:-10;
+	margin-right:0;
 }
 
 #tag{
@@ -44,7 +38,6 @@ ul {
 text-align:center;
 text-decoration: none;
 font-family: sans-serif;
-/*-webkit-font-smoothing: antialiased;*/
 font-size: 1.1em;
 color: dimgray;
 background: lightgray;
@@ -52,14 +45,6 @@ padding: 5px 10px;
 display: inline-block;
 white-space: nowrap;
 margin-left:10%;
-/*-webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;*/
-/*-webkit-transition: all 0.2s ease-in-out;
--ms-transition: all 0.2s ease-in-out;
--moz-transition: all 0.2s ease-in-out;
--o-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;*/
 }
 #submit:hover {
 background: white;
