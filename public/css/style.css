@@ -50,12 +50,12 @@ margin-left:10%;
 background: white;
 }
 #popular{
-text-align:center;
+/*text-align:center;*/
 text-decoration: none;
 font-family: sans-serif;
 font-size: 1.1em;
 color: white;
-padding: 5px 10px;
+/*padding: 5px 10px;*/
 display: inline-block;
 white-space: nowrap;
 margin-left:10%;
