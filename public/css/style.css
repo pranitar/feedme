@@ -94,3 +94,12 @@ h2{
 	font-size: 1.1em;
 	margin-bottom: -10px;
 }
+h3{
+	color: #BABABA;
+	vertical-align: middle;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20%;
+	font-size: 3.0em;
+	font-family:sans-serif;
+}
