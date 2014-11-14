@@ -46,36 +46,38 @@ display: inline-block;
 white-space: nowrap;
 margin-left:10%;
 }
+
 #submit:hover {
 background: white;
 }
+
 #popular{
-/*text-align:center;*/
 text-decoration: none;
 font-family: sans-serif;
 font-size: 1.1em;
 color: white;
-/*padding: 5px 10px;*/
 display: inline-block;
 white-space: nowrap;
 margin-left:10%;
 }
+
 #pics{
 	width:100%;
 }
+
 .insta {
 	height: 200px;
 	width: 200px;
 	padding:30px;
 }
+
 img .close{
 	height:2px;
 	width:2px;
 }
+
 #menu{
 	color: white;
-	/*padding: 5px 10px;*/
-	/*margin-left: 10%;*/
 	font-family: sans-serif;
 }
 
